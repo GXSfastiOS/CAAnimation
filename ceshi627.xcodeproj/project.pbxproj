@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0825C17A1E89FF620055B954 /* AnimtiomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0825C1791E89FF620055B954 /* AnimtiomViewController.m */; };
 		08F30FBF1D228BBE001D1DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F30FBE1D228BBE001D1DAB /* main.m */; };
 		08F30FC21D228BBE001D1DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F30FC11D228BBE001D1DAB /* AppDelegate.m */; };
 		08F30FC51D228BBE001D1DAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F30FC41D228BBE001D1DAB /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0825C1781E89FF620055B954 /* AnimtiomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimtiomViewController.h; sourceTree = "<group>"; };
+		0825C1791E89FF620055B954 /* AnimtiomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimtiomViewController.m; sourceTree = "<group>"; };
 		08F30FBA1D228BBE001D1DAB /* ceshi627.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi627.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F30FBE1D228BBE001D1DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08F30FC01D228BBE001D1DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				08F30FC11D228BBE001D1DAB /* AppDelegate.m */,
 				08F30FC31D228BBE001D1DAB /* ViewController.h */,
 				08F30FC41D228BBE001D1DAB /* ViewController.m */,
+				0825C1781E89FF620055B954 /* AnimtiomViewController.h */,
+				0825C1791E89FF620055B954 /* AnimtiomViewController.m */,
 				08F30FC61D228BBE001D1DAB /* Main.storyboard */,
 				08F30FC91D228BBE001D1DAB /* Assets.xcassets */,
 				08F30FCB1D228BBE001D1DAB /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0825C17A1E89FF620055B954 /* AnimtiomViewController.m in Sources */,
 				08F30FC51D228BBE001D1DAB /* ViewController.m in Sources */,
 				08F30FC21D228BBE001D1DAB /* AppDelegate.m in Sources */,
 				08F30FBF1D228BBE001D1DAB /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				08F30FE91D228BBE001D1DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08F30FEA1D228BBE001D1DAB /* Build configuration list for PBXNativeTarget "ceshi627Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				08F30FEC1D228BBE001D1DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08F30FED1D228BBE001D1DAB /* Build configuration list for PBXNativeTarget "ceshi627UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				08F30FEF1D228BBE001D1DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
